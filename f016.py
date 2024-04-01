@@ -1,5 +1,5 @@
 altura_chico = 150  
-altura_ze = 130  # 
+altura_ze = 130  
 crescimento_chico = 2  
 crescimento_ze = 3  
 anos = 0  
