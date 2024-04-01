@@ -1,15 +1,15 @@
 
-primeiro_valor = float(input("Digite o 1º valor: "))
+primeiro_valor = float(input("Digite o 1 valor: "))
 maior_valor = primeiro_valor
 menor_valor = primeiro_valor
 
 for i in range(20):
-    valor = float(input(f"Digite o {i+1}º valor: "))
+    valor = float(input(f"Digite o {i+1} valor: "))
     
     if valor > maior_valor:
         maior_valor = valor
     elif valor < menor_valor:
         menor_valor = valor
 
-print(f"O maior valor é: {maior_valor}")
-print(f"O menor valor é: {menor_valor}")
+print(f"O maior valor e: {maior_valor}")
+print(f"O menor valor e: {menor_valor}")
