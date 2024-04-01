@@ -2,7 +2,7 @@ soma_salarios = 0
 soma_filhos = 0
 contador_pessoas = 0
 contador_salario_ate_1000 = 0
-maior_salario = float('-inf')
+maior_salario = float('-inf') #-inf e infinito negativo, pode substituir por 0 mas isso ai deixa mais bonito o codigo
 
 while True:
     salario = float(input("Digite o salário (ou um número negativo para encerrar): "))
