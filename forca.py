@@ -12,7 +12,6 @@ letras_erradas = []
 
 tentativas = 6
 
-print("Bem-vindo ao Jogo da Forca!")
 print("A palavra tem", len(palavra), "letras.")
 
 while tentativas > 0:
@@ -28,13 +27,13 @@ while tentativas > 0:
         print("Letras erradas:", " ".join(letras_erradas))
 
     if "_" not in palavra_atual:
-        print("Parabéns! Você ganhou!")
+        print("voce ganhou")
         tentativas = 0
     else:
         letra = input("Digite uma letra: ").lower()
 
         if letra in letras_certas or letra in letras_erradas:
-            print("Você já escolheu essa letra. Tente novamente.")
+            print("Voce ja escolheu essa letra. Tente novamente.")
             continue
 
         if letra in palavra:
@@ -42,7 +41,7 @@ while tentativas > 0:
         else:
             letras_erradas.append(letra)
             tentativas -= 1
-            print("Letra incorreta. Você tem", tentativas, "tentativas restantes.")
+            print("Letra incorreta. Voce tem", tentativas, "tentativas restantes.")
 
 if tentativas == 0:
-    print("Você perdeu! A palavra era:", palavra)
+    print("Voce perdeu, a palavra era:", palavra)
